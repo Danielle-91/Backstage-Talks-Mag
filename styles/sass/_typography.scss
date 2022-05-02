@@ -1,0 +1,30 @@
+h1,
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.fifteen {
+    font-size: 0.75rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section a {
+    color: white;
+}
+
+.centerFlex .uppercase {
+    text-transform: uppercase;
+}
+
+.copyrights p,
+.copyrights a {
+    font-weight: 400;
+    font-size: 0.6rem;
+}

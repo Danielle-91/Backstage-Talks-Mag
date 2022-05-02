@@ -268,3 +268,110 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-size: 125%;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1500px;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  height: 100%;
+  padding: 30px;
+}
+
+.centerFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section img {
+  width: 35%;
+}
+
+h1,
+p,
+a {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.fifteen {
+  font-size: 0.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section a {
+  color: white;
+}
+
+.centerFlex .uppercase {
+  text-transform: uppercase;
+}
+
+.copyrights p,
+.copyrights a {
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+header img {
+  width: 21%;
+  margin: 7px;
+  padding: 12px;
+  position: absolute;
+}
+
+.five {
+  background-color: #00c1b5;
+}
+
+.four {
+  background-color: #ff651a;
+}
+
+.three {
+  background-color: #ffbe00;
+}
+
+.two {
+  background-color: #1d3fbb;
+}
+
+.one {
+  background-color: #e30512;
+}
+
+footer {
+  background-color: #e30512;
+  padding: 10px;
+}

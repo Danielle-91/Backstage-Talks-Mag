@@ -1,0 +1,36 @@
+html {
+    font-size: 125%;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1500px;
+    width: 100%;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+section {
+    height: 100%;
+    padding: 30px;
+}
+
+.centerFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    width: 35%;
+}
